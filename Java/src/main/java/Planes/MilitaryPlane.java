@@ -4,7 +4,7 @@ import models.MilitaryType;
 
 import java.util.Objects;
 
-public class MilitaryPlane extends Plane{
+public class MilitaryPlane extends Plane {
 
     private MilitaryType type;
 
@@ -15,6 +15,10 @@ public class MilitaryPlane extends Plane{
 
     public MilitaryType getType() {
         return type;
+    }
+
+    public void setType(MilitaryType type) {
+        this.type = type;
     }
 
     @Override
